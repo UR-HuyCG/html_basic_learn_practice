@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Đơn cầu xin gia nhập hội fan cuồng GOAT (Cristiano Ronaldo dos Santos
+      Aveiro)
+    </h1>
+    <p>
+      Chào mừng bạn đến với hội của những người hâm mộ và học hỏi những phẩm
+      chất tốt đẹp của Ronaldo (7 cỏ)
+    </p>
+    <form action="">
+      <!-- Họ và tên -->
+      <label for="fullname"> Họ và tên của bạn:</label> <br />
+      <input
+        type="text"
+        name="fullname"
+        id="fullname"
+        required
+        placeholder="VD: Rô Nan Đô"
+        size="30"
+      />
+      <br />
+      <br />
+      <!-- Email -->
+      <label for="email"> Email:</label> <br />
+      <input
+        type="text"
+        name="email"
+        id="email"
+        required
+        placeholder="VD: ronaldo@gmail.com"
+        size="30"
+      />
+      <br />
+      <br />
+      <!-- Story -->
+      <label for="story">
+        Kể cho chúng tôi nghe cảm xúc của bạn khi Ronaldo vô địch UEFA Nations
+        League một lần nữa ở tuổi 40:</label
+      >
+      <br />
+      <textarea
+        name="story"
+        id="story"
+        placeholder="Gõ thật lòng, đừng giấu cảm xúc của bạn..."
+        rows="5"
+        cols="50"
+        spellcheck
+      ></textarea>
+      <br />
+      <br />
+      <!-- Giới tính-->
+      <fieldset>
+        <legend>Giới tính của bạn (ưu tiên nữ là fan Ronaldo)</legend>
+        <label for="male">
+          <input id:"male" type="radio" name="gender" value="male"> Nam
+        </label>
+        <br />
+        <label for="female">
+          <input id:"female" type="radio" name="gender" value="female"> Nữ
+        </label>
+      </fieldset>
+
+      <br />
+      <br />
+      <!-- Vị trí đá yêu thích -->
+      <label for="version">Bạn nghĩ anh 7 năm nào là prime nhất</label>
+      <br />
+      <select name="version" id="version">
+        <option value="2008">2008</option>
+        <option value="2014">2014</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+      </select>
+
+      <br />
+      <br />
+      <!-- Mức độ phan cuồng -->
+      <label for="fan-level">Mức độ fan cuồng của bạn (Từ 1 đến 10):</label>
+      <input type="number" id="fan-level" name="fan-level" min="1" max="10" />
+      <br />
+      <br />
+      <!-- Cầu thủ chơi cùng Ronaldo mà bạn ưa thích nhất -->
+      <label for="favorite-player"
+        >Cầu thủ từng chơi cùng Ronaldo mà bạn ưa thích nhất</label
+      >
+      <input
+        type="text"
+        id="favorite-player"
+        name="favorite-player"
+        list="players"
+      />
+      <datalist id="players">
+        <option value="Rio Ferdinand"></option>
+        <option value="Rui Patricio"></option>
+        <option value="Marcelo"></option>
+        <option value="Luis Nani"></option>
+        <option value="Pepe"></option>
+        <option value="Luka Modric"></option>
+        <option value="Dani Carvajal"></option>
+        <option value="Toni Kroos"></option>
+        <option value="Luis Figo"></option>
+        <option value="Ricardo Quaresma"></option>
+      </datalist>
+
+      <br />
+      <br />
+      <!-- Bạn có cam kết không rời hội -->
+      <p><b>Bạn có cam kết không rời hội khi anh 7 có phong độ không cao</b></p>
+      <label for="agree">Tôi cam kết</label>
+      <input type="checkbox" id="agree" name="agree" required />
+      <br />
+      <br />
+      <!-- Nút button -->
+      <button type="submit">Gửi đơn (chuẩn bị họp fan thôi)</button>
+      <button type="reset">Điền lại (điền lại vì vừa điền xằng)</button>
+    </form>
+  </body>
+</html>
