@@ -6,11 +6,11 @@ hiển thị tất cả nội dung trên vscode Alt + z
 
 gõ dấu chấm cảm ! sau đó nhấm tab ==> cấu trúc đơn giản nhất của html
 
-<!DOCTYPE html> //version mới nhất
-<html lang="en"> //thẻ html-root element phần tử gốc- khai báo sự bắt đầu kết thúc của 1 trang html
+<!DOCTYPE html> version mới nhất
+<html lang="en"> thẻ html-root element phần tử gốc- khai báo sự bắt đầu kết thúc của 1 trang html
 <head> //chứa thông tin cấu hình và mô tả web, 0 hiển thị trực tiếp cho user
-    <meta charset="UTF-8"> //hỗ trợ hiển thị đa ngôn ngữ
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> //hiển thị đúng trên mọi thiết bị 
+    <meta charset="UTF-8"> hỗ trợ hiển thị đa ngôn ngữ
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> hiển thị đúng trên mọi thiết bị 
     <title>Document</title>
 </head>
 <body>
@@ -22,7 +22,7 @@ gõ dấu chấm cảm ! sau đó nhấm tab ==> cấu trúc đơn giản nhất
 
 ## thẻ tiêu đề, header
 
-<h></h> //có h1 h2 h3 ... giúp browser hiểu nội dung trang web tốt hơn. sử dụng đúng thứ tự cấp bậc là quan trọng
+<h></h> có h1 h2 h3 ... giúp browser hiểu nội dung trang web tốt hơn. sử dụng đúng thứ tự cấp bậc là quan trọng
 
 ## chú thích - ctr + /
 
@@ -47,28 +47,28 @@ rel= relation để tăng bảo mật giữa 2 trang web
 
 ## thẻ list
 
-<ol type="1"> //odered list Type có thể mang giá trị: 1, a, A, I, i
-    <li></li> /list item
+<ol type="1"> odered list Type có thể mang giá trị: 1, a, A, I, i
+    <li></li> list item
     <li></li> 
     <li></li> 
 </ol> 
---------------
+--------------------------
 
 <ul type="none"> type có thể mang các giá trị như none, circle, dist, square
-    <li></li> /list item
+    <li></li> list item
     <li></li> 
     <li></li> 
 </ul> 
 --------------------------
 <dl> 
-    <li></li> /list item
+    <li></li> list item
     <li></li> 
     <li></li> 
 </dl>
 
 ## thẻ table
 
-<table> //kiểu đơn giản nhất
+<table> kiểu đơn giản nhất
     <caption> </caption>
     <tr>
         <th></th>
@@ -82,7 +82,7 @@ rel= relation để tăng bảo mật giữa 2 trang web
     </tr>
 </table>
 
-<table>// nâng cao hơn 1 chút
+<table> nâng cao hơn 1 chút
       <colgroup>
         <!-- colgroup là để nhóm, col bắt buộc phải nằm trong colgroup -->
         <col style="background-color: #ffffff" span="2" />
@@ -119,10 +119,10 @@ rel= relation để tăng bảo mật giữa 2 trang web
 
 ## thẻ form
 
-<form action=""> //thuộc tính action-liên quan đến backend
+<form action=""> thuộc tính action-liên quan đến backend
       <label for=""></label>
-    <input type="text" />     // ô nhập văn bản
-    <button type="submit">Đăng nhập</button> // còn có nhiều type như reset,....
+    <input type="text" />      ô nhập văn bản
+    <button type="submit">Đăng nhập</button> còn có nhiều type như reset,....
 </form>
 
 ## thẻ div
@@ -150,3 +150,5 @@ Ví dụ:
 
 giúp code dễ đọc, tăng seo (Search Engine Optimization)
 ![alt text](./assets/image.png)
+
+## emmet
